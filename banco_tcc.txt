@@ -1,0 +1,8 @@
+create database tcc;
+use tcc;
+create table candidato(id int primary key auto_increment, nome varchar (60),email varchar (20), senha varchar(10), confirsenha varchar(10));
+create table empresa(id int primary key auto_increment, nome varchar (60),email varchar (20), senha varchar(10), confirsenha varchar(10));
+create table usuarios(id int primary key not null auto_increment,tipo varchar (10),nome varchar (60), senha varchar(10));
+select * from candidato;
+select * from empresa;
+select * from usuarios;
